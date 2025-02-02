@@ -1,0 +1,53 @@
+﻿
+#include "PlanetSimulator/k_Planet.hlsl"
+#include "PlanetSimulator/k_Row.hlsl"
+#include "PlanetSimulator/k_Env.hlsl"
+#include "PlanetSimulator/k_Life.hlsl"
+#include "PlanetSimulator/k_Statistics.hlsl"
+#include "PlanetSimulator/k_Command.hlsl"
+#include "PlanetSimulator/k_Rendering.hlsl"
+
+#pragma kernel Begin
+#pragma kernel BeginRow
+
+#pragma kernel EnvCalcDiff
+#pragma kernel EnvApplyDiff
+#pragma kernel EnvLifeNutrients
+#pragma kernel EnvSumNutrients
+
+#pragma kernel LifeGrow
+#pragma kernel LifeReproduce
+
+#pragma kernel StatisticsReductRow1
+#pragma kernel StatisticsReductRow2
+#pragma kernel StatisticsReductCol1
+#pragma kernel StatisticsReductCol2
+
+#pragma kernel PopulationClear
+#pragma kernel PopulationCollect
+
+#pragma kernel EnvStatisticsClear
+#pragma kernel EnvStatisticsCollectElevation
+#pragma kernel EnvStatisticsCollectTemperature
+#pragma kernel EnvStatisticsCollectHumidity
+
+#pragma kernel EndRow
+#pragma kernel End
+
+#pragma kernel CommandGetCenterH
+#pragma kernel CommandMeteor
+#pragma kernel CommandVolcano
+#pragma kernel CommandCollapse
+#pragma kernel CommandCosmicRay
+#pragma kernel CommandAbductLife
+#pragma kernel CommandIntroduceLife
+#pragma kernel CommandSearchLife
+#pragma kernel CommandGetTileDetails
+
+#pragma kernel RenderWorld
+#pragma kernel RenderLife
+#pragma kernel RenderWind
+#pragma kernel RenderUpDown
+#pragma kernel RenderTemperature
+#pragma kernel RenderHumidity
+#pragma kernel RenderHappiness

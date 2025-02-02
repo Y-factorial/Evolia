@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SurfaceTile
+  m_Shader: {fileID: 4800000, guid: 5a0046ccf7347b142927e9086d7fc074, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USE_INTERPORATION_VERTEX
+  - _USE_PIXEL_PERFECT
+  - _USE_TRAITS
+  m_InvalidKeywords:
+  - _MODE_OPAQUE
+  - _USE_INTERPORATION_COVER
+  - _UseInterporation
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IndexTex:
+        m_Texture: {fileID: 2800000, guid: addb19b3b0a96824ba84e601bda4517f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TileTex:
+        m_Texture: {fileID: 2800000, guid: 608a28e87880d2e4bae2d7e6a60ddd15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TraitsTex:
+        m_Texture: {fileID: 2800000, guid: c5dc581977034c749bdc1bba85a61aac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _EnableExternalAlpha: 0
+    - _ForcedMipLevel: 0
+    - _Mode: 0
+    - _PaletteCountX: 16
+    - _PaletteCountY: 8
+    - _PaletteGridSize: 8
+    - _PaletteGridX: 8
+    - _PaletteGridY: 1
+    - _RequestedMipLevel: 5
+    - _Stencil: 1
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TileSize: 32
+    - _TileX: 8
+    - _TileY: 1
+    - _Timer: 56.591484
+    - _UseColorMatrix: 0
+    - _UseInterporation: 0
+    - _UsePixelPerfect: 1
+    - _UseRectMask: 0
+    - _UseScale: 0
+    - _UseTraits: 1
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,74 @@
+{
+    "name": "TouchAction",
+    "maps": [
+        {
+            "name": "TouchActions",
+            "id": "4d571733-f31c-4c52-b1ee-f9baa17f39dc",
+            "actions": [
+                {
+                    "name": "TouchAction",
+                    "type": "PassThrough",
+                    "id": "2deff983-0f5c-4fba-bb6b-aff1223c070a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MouseAction",
+                    "type": "PassThrough",
+                    "id": "de6a7516-1b76-4a70-b2ee-e087b5b86210",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WheelAction",
+                    "type": "PassThrough",
+                    "id": "827640c9-9efa-4005-bd10-0531cd98cfee",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "980aa823-fe58-4179-81bc-820b3fedc59a",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "70f706c5-fafe-458a-a9dd-aab05ac6fa46",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WheelAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc2a51a7-102c-4289-a407-197a361ab99f",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

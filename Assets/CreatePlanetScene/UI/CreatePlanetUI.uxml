@@ -1,0 +1,48 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement picking-mode="Ignore" name="planet-param-popup" class="popup-layer" style="align-items: stretch; justify-content: flex-end; top: 2px; flex-direction: row;">
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; width: 50px;" />
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0;">
+            <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+            <engine:VisualElement class="popup-frame">
+                <engine:VisualElement class="popup-header" style="flex-grow: 1;">
+                    <engine:Label text="PARAMETERS" />
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-content" style="flex-grow: 1;">
+                    <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                        <engine:Slider label="Size" high-value="2" low-value="0.5" value="1" name="size-slider" style="flex-grow: 1;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                        <engine:Toggle label="Show Hidden" name="show-hidden-toggle" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="hidden-params" style="flex-grow: 1; flex-direction: column;">
+                        <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                            <engine:Slider label="Solar Distance" value="1" high-value="1.2" low-value="0.8" fill="true" show-input-field="false" name="solar-distance-slider" style="flex-grow: 1;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                            <engine:Slider label="Solar Luminosity" value="1" high-value="1.2" low-value="0.8" name="solar-luminosity-slider" style="flex-grow: 1;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                            <engine:Slider label="Axis Tilt" value="25" high-value="80" name="axis-tilt-slider" style="flex-grow: 1;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                            <engine:Slider label="Water" value="1" high-value="2" low-value="0" name="water-slider" style="flex-grow: 1;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-footer" style="flex-grow: 1;">
+                    <engine:Button text="RANDOM" name="random-button" class="box-button" />
+                    <engine:Button text="START" name="start-button" class="box-button" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0.1;" />
+        </engine:VisualElement>
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0.1; width: 50px;" />
+    </engine:VisualElement>
+    <engine:VisualElement name="main-ui" picking-mode="Ignore" style="flex-grow: 1;">
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0.2;" />
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; align-self: auto;">
+            <engine:Label text="作成する惑星のパラメータを設定してください" picking-mode="Ignore" style="align-self: center; font-size: 32px; background-color: rgba(0, 0, 0, 0.75); color: rgb(255, 255, 255); white-space: normal; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px; margin-top: 32px; margin-right: 32px; margin-bottom: 32px; margin-left: 32px;" />
+        </engine:VisualElement>
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,70 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="planet-popup" picking-mode="Ignore" class="popup-layer" style="align-items: stretch; flex-direction: row; display: flex;">
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; width: 50px;" />
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0;">
+            <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+            <engine:VisualElement class="popup-frame">
+                <engine:VisualElement class="popup-header">
+                    <engine:Label text="Planet" name="planet-name-label" />
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-content" style="flex-grow: 1;">
+                    <engine:VisualElement class="popup-content-row" style="flex-direction: column;">
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Label text="作成日時" class="unity-base-field__label" />
+                            <engine:Label name="created-at-label" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Label text="最終プレイ日時" class="unity-base-field__label" />
+                            <engine:Label name="last-played-at-label" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Label text="惑星年" name="Label" class="unity-base-field__label" />
+                            <engine:Label name="planet-age-label" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                        <engine:VisualElement name="thumbnail" style="flex-grow: 1; width: 512px; height: 256px; align-self: center;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement picking-mode="Ignore" class="popup-footer">
+                    <engine:Button text="START" name="start-button" class="box-button" />
+                    <engine:Button text="DELETE" name="delete-button" class="box-button" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0.1;" />
+        </engine:VisualElement>
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0.1; width: 50px;" />
+    </engine:VisualElement>
+    <engine:VisualElement name="create-popup" enabled="true" picking-mode="Ignore" class="popup-layer" style="display: none; flex-direction: row; align-items: stretch;">
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; width: 50px;" />
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0;">
+            <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+            <engine:VisualElement class="popup-frame">
+                <engine:VisualElement class="popup-header">
+                    <engine:Label text="CREATE PLANET" />
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-content">
+                    <engine:VisualElement class="popup-content-row">
+                        <engine:TextField label="Name" placeholder-text="filler text" name="name-input" value="Earth" style="width: 400px;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement class="popup-content-row">
+                        <engine:Button text="RANDOM" name="random-button" class="inline-button" style="margin-left: 250px;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-footer">
+                    <engine:Button text="OK" name="ok-button" class="box-button" />
+                    <engine:Button text="CANCEL" name="cancel-button" class="box-button" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0.1;" />
+        </engine:VisualElement>
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0.1; width: 50px;" />
+    </engine:VisualElement>
+    <engine:VisualElement name="main-ui" picking-mode="Ignore" style="flex-grow: 1;">
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 0.2;" />
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; align-self: auto;">
+            <engine:Label text="開いている場所をクリックして新しい惑星を作成するか、既にある惑星を選択してください" picking-mode="Ignore" style="align-self: center; font-size: 32px; background-color: rgba(0, 0, 0, 0.75); color: rgb(255, 255, 255); white-space: normal; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px; margin-top: 32px; margin-right: 32px; margin-bottom: 32px; margin-left: 32px;" />
+        </engine:VisualElement>
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+    </engine:VisualElement>
+</engine:UXML>

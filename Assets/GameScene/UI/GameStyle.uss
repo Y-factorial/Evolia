@@ -1,0 +1,698 @@
+#header {
+    background-color: rgb(255, 187, 68);
+    padding: 5px 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 24px;
+    -unity-font-style: bold;
+}
+
+
+#planet-info {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+}
+
+#hamburger-button {
+    margin: 0;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    border-width: 0;
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_4");
+}
+
+#hamburger-button:hover {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_12");
+}
+
+#hamburger-button:active {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_12");
+}
+
+#planet-name-label {
+    flex-grow: 1;
+    background-color: rgb(238, 170, 51);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: 200px;
+    max-width: 320px;
+    -unity-text-align: middle-left;
+}
+
+#planet-age-label {
+    flex-grow: 1;
+    background-color: rgb(238, 170, 51);
+    background-image: url("project://database/Assets/GameScene/Sprites/AgeIcon.png#AgeIcon");
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    padding-left: 40px;
+    padding-right: 10px;
+    height: 40px;
+    width: 260px;
+    max-width: 320px;
+    -unity-text-align: middle-right;
+}
+
+#speed-button-group {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+}
+
+.speed-button {
+    margin: 0;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    border-width: 0;
+}
+
+#speed-button-Pause {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_0");
+}
+
+#speed-button-Pause:hover,
+#speed-button-Pause:active,
+#speed-button-Pause.active {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_8");
+}
+
+#speed-button-Normal {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_1");
+}
+
+#speed-button-Normal:hover,
+#speed-button-Normal:active,
+#speed-button-Normal.active {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_9");
+}
+
+#speed-button-Fast {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_2");
+}
+
+#speed-button-Fast:hover,
+#speed-button-Fast:active,
+#speed-button-Fast.active {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_10");
+}
+
+#speed-button-Faster {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_3");
+}
+
+#speed-button-Faster:hover,
+#speed-button-Faster:active,
+#speed-button-Faster.active {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_11");
+}
+
+#speed-button-SuperFast {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_5");
+}
+
+#speed-button-SuperFast:hover,
+#speed-button-SuperFast:active,
+#speed-button-SuperFast.active {
+    background-image: url("project://database/Assets/GameScene/Sprites/ControlButton.png#ControlButton_13");
+}
+
+
+
+#environment-info {
+    flex-shrink: 0;
+    flex-grow: 10;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.planet-environment-label {
+    flex-grow: 1;
+    border-width: 2px;
+    border-left-color: rgb(51, 34, 17);
+    border-top-color: rgb(51, 34, 17);
+    border-right-color: rgb(153, 102, 51);
+    border-bottom-color: rgb(153, 102, 51);
+    background-color: rgb(255, 221, 119);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    padding-left: 40px;
+    padding-right: 10px;
+    height: 40px;
+    width: 160px;
+    max-width: 240px;
+    -unity-text-align: middle-right;
+}
+
+#planet-temperature-label {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_0");
+}
+
+#planet-pressure-label {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_1");
+    padding-right: 36px;
+}
+
+.pressure-unit {
+    position: relative;
+    left: 34px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-image: url("project://database/Assets/GameScene/Sprites/PressureUnit.png#PressureUnit");
+}
+
+#planet-humidity-label {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_5");
+}
+
+#planet-o2-label {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_2");
+}
+
+#planet-co2-label {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_3");
+}
+
+.planet-environment-label.ppm {
+    padding-right: 36px;
+}
+
+.ppm .ppm-unit {
+    position: relative;
+    left: 34px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-image: url("project://database/Assets/GameScene/Sprites/PPMUnit.png#PPMUnit");
+}
+
+#content {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#saving-throbber {
+    position: absolute;
+    margin: 20px;
+    width: 64px;
+    height: 64px;
+    background-image: url("project://database/Assets/GameScene/Sprites/Throbber.png#Throbber");
+    background-size: cover;
+    rotate: 0;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+#debug-panel {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-grow: 0;
+    width: 400px;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.debug-row {
+    flex-direction: row;
+}
+
+.debug-key {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    color: white;
+}
+
+.debug-value {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    color: white;
+}
+
+.debug-key {
+    width: 100px;
+    -unity-text-align: middle-center;
+}
+
+.debug-value {
+    width: 200px;
+    -unity-text-align: middle-left;
+}
+
+#minimap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-width: 8px;
+    border-left-color: rgb(153, 102, 51);
+    border-top-color: rgb(153, 102, 51);
+    border-right-color: rgb(51, 34, 17);
+    border-bottom-color: rgb(51, 34, 17);
+    background-color: rgb(255, 221, 119);
+    width: 416px;
+    height: 216px;
+}
+
+#content-top-container
+{
+    flex-grow: 1;
+}
+
+#menu-container
+{
+    margin-bottom: 20px;
+}
+
+#menu-panel {
+    flex-grow: 0;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+    border-width: 8px;
+    border-left-color: rgb(153, 102, 51);
+    border-top-color: rgb(153, 102, 51);
+    border-right-color: rgb(51, 34, 17);
+    border-bottom-color: rgb(51, 34, 17);
+    background-color: rgb(255, 221, 119);
+}
+
+.submenu-panel {
+    flex-grow: 0;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+    border-width: 8px;
+    border-left-color: rgb(153, 102, 51);
+    border-top-color: rgb(153, 102, 51);
+    border-right-color: rgb(51, 34, 17);
+    border-bottom-color: rgb(51, 34, 17);
+    background-color: rgb(255, 221, 119);
+}
+
+.submenu-header {
+    background-color: rgb(255, 187, 68);
+    padding-left: 10px;
+}
+.submenu-label {
+    -unity-font-style: bold;
+    font-size: 20px;
+}
+
+.submenu-content {
+    flex-direction: row;
+}
+
+* .menu-button {
+    margin: 10px;
+    padding: 0px;
+    width: 64px;
+    height: 64px;
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-width: 0;
+}
+
+* .menu-button:hover,
+* .menu-button:active,
+* .menu-button.active {
+    background-color: rgb(255, 187, 68);
+}
+
+#search-button {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_3");
+}
+
+#overlay-button.None {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_1");
+}
+
+.overlay-button.None {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_8");
+}
+* .overlay-button.None.active:hover,
+* .overlay-button.None.active:active {
+    background-color: rgb(255, 187, 68);
+}
+* .overlay-button.None.active {
+    background-color: transparent;
+}
+
+.menu-button.Wind {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_9");
+}
+
+.menu-button.UpDown {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_10");
+}
+
+.menu-button.Temperature {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_11");
+}
+
+.menu-button.Humidity {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_12");
+}
+
+.menu-button.Happiness {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_13");
+}
+
+.overlay-button.HideLife {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_15");
+}
+
+.overlay-button.ShowLife {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_14");
+}
+
+#chart-button {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_2");
+}
+
+#chart-button-PopulationGraph {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_24");
+}
+
+#chart-button-HistoryGraph {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_25");
+}
+
+#chart-button-PhylogeneticTree {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_26");
+}
+
+#chart-button-NicheChart {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_27");
+}
+
+#chart-button-EnvStatistics {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_28");
+}
+
+#chart-button-HistoryLog {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_29");
+}
+
+#chart-button-EvolutionRaceGraph {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_30");
+}
+
+.menu-button.Focus, {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_0");
+}
+
+.menu-button.Meteor {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_16");
+}
+
+.menu-button.Volcano {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_17");
+}
+
+.menu-button.Collapse {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_18");
+}
+
+.menu-button.Abduction {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_19");
+}
+
+.menu-button.Introduction {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_20");
+}
+
+.menu-button.XRay {
+    background-image: url("project://database/Assets/GameScene/Sprites/MenuIcon.png#MenuIcon_21");
+}
+
+#bio-pod-container {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 256px;
+    height: 256px;
+    padding: 32px;
+}
+
+#bio-pod {
+    display: none;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    height: 192px;
+    background-size: 192px 192px;
+    background-repeat: no-repeat;
+    background-image: url("project://database/Assets/GameScene/Sprites/BioPod.png");
+}
+
+#bio-pod-content {
+    width: 96px;
+    height: 96px;
+}
+
+#content-bottom-container
+{
+    height: 160px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#tile-happiness-container {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+    margin-top: 0;
+    align-items: flex-start;
+}
+
+#tile-happiness {
+    opacity: 0;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+#tile-happiness {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+#tile-happiness-Total {
+    margin: 10px;
+    width: 64px;
+    height: 64px;
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+}
+
+.tile-happiness-icon {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+}
+
+#tile-happiness-O2-icon {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_2");
+}
+
+#tile-happiness-Elevation-icon {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_4");
+}
+
+#tile-happiness-Temperature-icon {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_0");
+}
+
+#tile-happiness-Humidity-icon {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_5");
+}
+
+#tile-happiness-Density-icon {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_6");
+}
+
+#tile-happiness-Nutrient-icon {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_7");
+}
+
+.tile-happiness {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+}
+
+.tile-happiness0 {
+    background-image: url("project://database/Assets/GameScene/Sprites/HappinessIcon.png#HappinessIcon_0");
+}
+
+.tile-happiness1 {
+    background-image: url("project://database/Assets/GameScene/Sprites/HappinessIcon.png#HappinessIcon_1");
+}
+
+.tile-happiness2 {
+    background-image: url("project://database/Assets/GameScene/Sprites/HappinessIcon.png#HappinessIcon_2");
+}
+
+.tile-happiness3 {
+    background-image: url("project://database/Assets/GameScene/Sprites/HappinessIcon.png#HappinessIcon_3");
+}
+
+.tile-happiness4 {
+    background-image: url("project://database/Assets/GameScene/Sprites/HappinessIcon.png#HappinessIcon_4");
+}
+
+.tile-happiness5 {
+    background-image: url("project://database/Assets/GameScene/Sprites/HappinessIcon.png#HappinessIcon_5");
+}
+
+.tile-happiness6 {
+    background-image: url("project://database/Assets/GameScene/Sprites/HappinessIcon.png#HappinessIcon_6");
+}
+
+.tile-happiness7 {
+    background-image: url("project://database/Assets/GameScene/Sprites/HappinessIcon.png#HappinessIcon_7");
+}
+
+
+
+#news-container {
+    height: 0px;
+    transition-property: height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    
+    overflow: hidden;
+    
+}
+
+#news-background {
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+    
+    padding: 4px;
+}
+
+#news-message-box
+{
+    overflow: hidden;
+}
+
+#news-message {
+    margin: 0;
+    padding: 2px 4px 4px 4px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/Shared/Fonts/NotoSansJP-Regular.ttf#NotoSansJP-Regular");
+}
+
+#footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    background-color: rgb(255, 187, 68);
+    padding: 5px 5px;
+    font-size: 24px;
+    -unity-font-style: bold;
+}
+
+#tile-image {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: -228px;
+    margin-right: 5px;
+    border-width: 8px;
+    border-left-color: rgb(153, 102, 51);
+    border-top-color: rgb(153, 102, 51);
+    border-right-color: rgb(51, 34, 17);
+    border-bottom-color: rgb(51, 34, 17);
+    background-color: rgb(255, 221, 119);
+    width: 208px;
+    height: 208px;
+}
+
+#tile-info {
+    flex-grow: 1;
+    max-width: 640px;
+
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.tile-environment-label {
+    flex-grow: 1;
+
+    border-width: 2px;
+    border-left-color: rgb(51, 34, 17);
+    border-top-color: rgb(51, 34, 17);
+    border-right-color: rgb(153, 102, 51);
+    border-bottom-color: rgb(153, 102, 51);
+    background-color: rgb(255, 221, 119);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    padding-left: 40px;
+    padding-right: 10px;
+    height: 40px;
+    width: 160px;
+    max-width: 240px;
+    -unity-text-align: middle-right;
+}
+
+#tile-elevation-label {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_4");
+}
+
+#tile-temperature-label {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_0");
+}
+
+#tile-humidity-label {
+    background-image: url("project://database/Assets/GameScene/Sprites/EnvironmentIcon.png#EnvironmentIcon_5");
+}

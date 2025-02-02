@@ -1,0 +1,166 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GameScene/UI/GameStyle.uss?fileID=7433441132597879392&amp;guid=3f41dc2a994b7d64bb889042c4eb38ee&amp;type=3#GameStyle" />
+    <engine:VisualElement name="hamburger-popup" picking-mode="Ignore" class="popup-layer" style="display: none;">
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+        <engine:VisualElement picking-mode="Ignore">
+            <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+            <engine:VisualElement name="hamburger-frame" class="popup-frame">
+                <engine:VisualElement class="popup-header">
+                    <engine:Label text="GAME MENU" />
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-content">
+                    <engine:VisualElement class="popup-content-row">
+                        <engine:Button text="OPTIONS" name="options-button" class="box-button" />
+                    </engine:VisualElement>
+                    <engine:VisualElement class="popup-content-row">
+                        <engine:Button text="MAIN MENU" name="return-mainmenu-button" class="box-button" />
+                    </engine:VisualElement>
+                    <engine:VisualElement class="popup-content-row">
+                        <engine:Button text="EXIT" name="exit-button" class="box-button" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-footer">
+                    <engine:Button text="Close" name="close-hamburger-button" class="box-button" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+        </engine:VisualElement>
+        <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+    </engine:VisualElement>
+    <engine:VisualElement picking-mode="Ignore" name="main-ui" style="flex-grow: 1; justify-content: space-between;">
+        <engine:VisualElement name="header">
+            <engine:VisualElement name="planet-info">
+                <engine:Button name="hamburger-button" />
+                <engine:Label text="Earth" name="planet-name-label" />
+                <engine:Label text="5,000,002,024" name="planet-age-label" />
+                <engine:VisualElement name="speed-button-group">
+                    <engine:Button name="speed-button-Pause" class="speed-button" />
+                    <engine:Button name="speed-button-Normal" class="speed-button" />
+                    <engine:Button name="speed-button-Fast" class="speed-button" />
+                    <engine:Button name="speed-button-Faster" class="speed-button" />
+                    <engine:Button name="speed-button-SuperFast" class="speed-button" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="environment-info">
+                <engine:Label text="1.00" name="planet-pressure-label" class="planet-environment-label">
+                    <engine:VisualElement class="pressure-unit" style="flex-grow: 1;" />
+                </engine:Label>
+                <engine:Label text="25.0%" name="planet-o2-label" class="planet-environment-label">
+                    <engine:VisualElement class="ppm-unit" style="flex-grow: 1;" />
+                </engine:Label>
+                <engine:Label text="25.0%" name="planet-co2-label" class="planet-environment-label">
+                    <engine:VisualElement class="ppm-unit" style="flex-grow: 1;" />
+                </engine:Label>
+                <engine:Label text="16℃" name="planet-temperature-label" class="planet-environment-label" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="content" picking-mode="Ignore">
+            <engine:VisualElement name="minimap" />
+            <engine:VisualElement name="content-top-container" picking-mode="Ignore">
+                <engine:VisualElement name="saving-throbber" picking-mode="Ignore" />
+            </engine:VisualElement>
+            <engine:VisualElement picking-mode="Ignore" name="menu-container">
+                <engine:VisualElement name="menu-panel">
+                    <engine:Button name="search-button" class="menu-button" />
+                    <engine:Button name="overlay-button" class="menu-button None" />
+                    <engine:Button name="chart-button" class="menu-button" />
+                    <engine:Button name="cursor-button" class="menu-button Focus" />
+                </engine:VisualElement>
+                <engine:VisualElement name="menu-panel-overlay" class="submenu-panel" style="display: none; position: absolute; left: 120px; top: 41px;">
+                    <engine:VisualElement class="submenu-header">
+                        <engine:Label text="オーバーレイ" class="submenu-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement class="submenu-content">
+                        <engine:Button name="overlay-button-None" class="menu-button overlay-button None" />
+                        <engine:Button name="overlay-button-Wind" class="menu-button overlay-button Wind" />
+                        <engine:Button name="overlay-button-UpDown" class="menu-button overlay-button UpDown" />
+                        <engine:Button name="overlay-button-Temperature" class="menu-button overlay-button Temperature" />
+                        <engine:Button name="overlay-button-Humidity" class="menu-button overlay-button Humidity" />
+                        <engine:Button name="overlay-button-HideLife" class="menu-button overlay-button HideLife" />
+                        <engine:Button name="overlay-button-ShowLife" class="menu-button overlay-button ShowLife" style="display: none;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="menu-panel-chart" class="submenu-panel" style="display: none; top: 124px; position: absolute; left: 120px;">
+                    <engine:VisualElement class="submenu-header">
+                        <engine:Label text="チャート" class="submenu-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement class="submenu-content">
+                        <engine:Button name="chart-button-PopulationGraph" class="menu-button" />
+                        <engine:Button name="chart-button-HistoryGraph" class="menu-button" />
+                        <engine:Button name="chart-button-PhylogeneticTree" class="menu-button" />
+                        <engine:Button name="chart-button-NicheChart" class="menu-button" />
+                        <engine:Button name="chart-button-EnvStatistics" class="menu-button" />
+                        <engine:Button name="chart-button-HistoryLog" class="menu-button" />
+                        <engine:Button name="chart-button-EvolutionRaceGraph" class="menu-button" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="menu-panel-cursor" class="submenu-panel" style="display: none; top: 208px; position: absolute; left: 120px;">
+                    <engine:VisualElement class="submenu-header">
+                        <engine:Label text="インタラクション" class="submenu-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement class="submenu-content">
+                        <engine:Button name="cursor-button-Focus" class="menu-button cursor-button Focus" />
+                        <engine:Button name="cursor-button-Meteor" class="menu-button cursor-button Meteor" />
+                        <engine:Button name="cursor-button-Volcano" class="menu-button cursor-button Volcano" />
+                        <engine:Button name="cursor-button-Collapse" class="menu-button cursor-button Collapse" />
+                        <engine:Button name="cursor-button-Abduction" class="menu-button cursor-button Abduction" />
+                        <engine:Button name="cursor-button-XRay" class="menu-button cursor-button XRay" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="content-bottom-container" picking-mode="Ignore">
+                <engine:VisualElement name="bio-pod-container" picking-mode="Ignore">
+                    <engine:VisualElement picking-mode="Ignore" name="bio-pod">
+                        <engine:VisualElement name="bio-pod-content" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="tile-happiness-container" picking-mode="Ignore">
+                    <engine:VisualElement name="tile-happiness">
+                        <engine:VisualElement>
+                            <engine:VisualElement name="tile-happiness-Total" class="tile-happiness" />
+                        </engine:VisualElement>
+                        <engine:VisualElement>
+                            <engine:VisualElement name="tile-happiness-O2-icon" class="tile-happiness-icon" />
+                            <engine:VisualElement name="tile-happiness-O2" class="tile-happiness" />
+                        </engine:VisualElement>
+                        <engine:VisualElement>
+                            <engine:VisualElement name="tile-happiness-Elevation-icon" class="tile-happiness-icon" />
+                            <engine:VisualElement name="tile-happiness-Elevation" class="tile-happiness" />
+                        </engine:VisualElement>
+                        <engine:VisualElement>
+                            <engine:VisualElement name="tile-happiness-Temperature-icon" class="tile-happiness-icon" />
+                            <engine:VisualElement name="tile-happiness-Temperature" class="tile-happiness" />
+                        </engine:VisualElement>
+                        <engine:VisualElement>
+                            <engine:VisualElement name="tile-happiness-Humidity-icon" class="tile-happiness-icon" />
+                            <engine:VisualElement name="tile-happiness-Humidity" class="tile-happiness" />
+                        </engine:VisualElement>
+                        <engine:VisualElement>
+                            <engine:VisualElement name="tile-happiness-Density-icon" class="tile-happiness-icon" />
+                            <engine:VisualElement name="tile-happiness-Density" class="tile-happiness" />
+                        </engine:VisualElement>
+                        <engine:VisualElement>
+                            <engine:VisualElement name="tile-happiness-Nutrient-icon" class="tile-happiness-icon" />
+                            <engine:VisualElement name="tile-happiness-Nutrient" class="tile-happiness" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="news-container" picking-mode="Ignore">
+                    <engine:VisualElement name="news-background">
+                        <engine:VisualElement name="news-message-box">
+                            <engine:Label name="news-message" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="footer">
+            <engine:VisualElement name="tile-image" />
+            <engine:VisualElement name="tile-info">
+                <engine:Label text="-8,000m" name="tile-elevation-label" class="tile-environment-label" />
+                <engine:Label text="16.0℃" name="tile-temperature-label" class="tile-environment-label" />
+                <engine:Label text="80.0%" name="tile-humidity-label" class="tile-environment-label" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

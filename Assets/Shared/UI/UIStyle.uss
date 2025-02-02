@@ -1,0 +1,127 @@
+VisualElement {
+
+	-unity-font-definition: url("project://database/Assets/Shared/Fonts/NotoSansJP-Regular.ttf#NotoSansJP-Regular");
+}
+
+.main-logo
+{
+	flex-grow: 1;
+
+	margin-left: 20px;
+	margin-right: 20px;
+
+	max-width: 840px;
+	max-height: 180px;
+
+	height: 180px;
+
+	-unity-background-scale-mode: scale-to-fit;
+	background-image: url("project:Assets/MainMenuScene/Sprites/TitleLogo.png");
+	background-position-x: center;
+	background-position-y: center;
+}
+
+.main-button {
+	
+	margin: 10px 40px 10px 40px;
+
+	min-width: 400px;
+	
+	font-size: 48px;
+
+}
+
+
+
+.popup-layer {
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	flex-grow: 1;
+
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.popup-frame {
+	border-radius: 20px;
+	border-width: 20px;
+	border-color: #FFDD77;
+	
+	background-color: #FFEEBB;
+	
+	flex-direction: column;
+}
+
+
+.popup-frame .unity-base-field {
+	
+	font-size: 24px;
+}
+
+.popup-header {
+	flex-grow: 0;
+
+	background-color: #FFBB44;
+
+	padding: 5px 20px;
+	
+	font-size: 24px;
+	-unity-font-style: bold;
+}
+
+.popup-content {
+	flex-grow: 1;
+	
+	margin: 10px;
+
+	font-size: 24px;
+}
+
+.popup-content-row {
+	
+	flex-direction: row;
+
+	margin: 10px;
+
+}
+
+.popup-footer {
+	flex-grow: 0;
+	
+	margin: 10px;
+
+	font-size: 24px;
+
+	flex-direction: row;
+
+	justify-content: center;
+}
+
+.inline-button {
+	min-width: 200px;
+
+	font-size: 24px;
+}
+
+.box-button {
+	
+	margin: 10px 40px 10px 40px;
+
+	min-width: 200px;
+	
+	font-size: 24px;
+
+}
+
+.popup-content-row .unity-base-field__label {
+	width: 240px;
+}
+
+.popup-content-row .unity-base-field {
+	min-width: 560px;
+}
+

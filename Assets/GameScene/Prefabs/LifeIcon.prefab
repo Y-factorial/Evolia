@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1909243400589535660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7583726120454482818}
+  - component: {fileID: 499627725606168892}
+  - component: {fileID: 8062985489714236048}
+  - component: {fileID: 8769890355850227083}
+  m_Layer: 3
+  m_Name: LifeIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7583726120454482818
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909243400589535660}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 32, y: 32}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &499627725606168892
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909243400589535660}
+  m_CullTransparentMesh: 1
+--- !u!114 &8062985489714236048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909243400589535660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 20ebd3b504ceab84fb35df7fbe4432d6, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!114 &8769890355850227083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909243400589535660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c6db76cb8260343988f0fa64a5a785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeMaterial: {fileID: 2100000, guid: 20ebd3b504ceab84fb35df7fbe4432d6, type: 2}
+  plantMaterial: {fileID: 2100000, guid: 638c45d666932e1418dbd5d0d4e07117, type: 2}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+  spec:
+    id: 0
+    tier: 0
+    palette: 0
+    scale: 0
+    hasVariant: 0
+    photosynthesis: 0
+    respiration: 0
+    organic: 0
+    detritivore: 0
+    soil: 0
+    herbivore: 0
+    carnivore: 0
+    size: 0
+    mobility: 0
+    fertility: 0
+    preferences:
+      a0:
+        a0: {x: 0, y: 0}
+        a1: {x: 0, y: 0}
+        a2: {x: 0, y: 0}
+        a3: {x: 0, y: 0}
+      a1:
+        a0: {x: 0, y: 0}
+        a1: {x: 0, y: 0}
+        a2: {x: 0, y: 0}
+        a3: {x: 0, y: 0}
+      a2:
+        a0: {x: 0, y: 0}
+        a1: {x: 0, y: 0}
+        a2: {x: 0, y: 0}
+        a3: {x: 0, y: 0}
+      a3:
+        a0: {x: 0, y: 0}
+        a1: {x: 0, y: 0}
+        a2: {x: 0, y: 0}
+        a3: {x: 0, y: 0}
+    transforms:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0

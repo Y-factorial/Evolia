@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/MainMenuScene/Sprites/wp3366611-space-planet-wallpapers.jpg?fileID=2800000&amp;guid=11f37987002868541bcccb65e1d54077&amp;type=3#wp3366611-space-planet-wallpapers&quot;); -unity-background-scale-mode: scale-and-crop;">
+        <engine:VisualElement style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-between;">
+            <engine:VisualElement style="flex-grow: 0;" />
+            <engine:VisualElement name="logo" class="main-logo" />
+            <engine:VisualElement style="flex-grow: 0;" />
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 1; justify-content: center; align-items: center;">
+            <engine:Button text="Resume" name="resume-button" class="main-button" />
+            <engine:Button text="Start" name="start-button" class="main-button" />
+            <engine:Button text="Option" name="option-button" class="main-button" />
+            <engine:Button text="Exit" name="exit-button" class="main-button" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

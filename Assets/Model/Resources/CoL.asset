@@ -1,0 +1,2986 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f094ca5994fc08d40a907f59546bfdd9, type: 3}
+  m_Name: CoL
+  m_EditorClassIdentifier: 
+  names:
+  - "\u7121\u751F\u7269"
+  - "\u5171\u901A\u7956\u5148"
+  - "\u771F\u6B63\u7D30\u83CC"
+  - "\u30B7\u30A2\u30CE\u30D0\u30AF\u30C6\u30EA\u30A2"
+  - "\u03B1\u30D7\u30ED\u30C6\u30AA\u30D0\u30AF\u30C6\u30EA\u30A2"
+  - "\u53E4\u7D30\u83CC"
+  - "\u771F\u6838\u751F\u7269"
+  - "\u30A2\u30E1\u30FC\u30D0"
+  - "\u895F\u97AD\u6BDB\u866B"
+  - "\u30D7\u30ED\u30C6\u30ED\u30B9\u30DD\u30F3\u30AE\u30A2"
+  - "\u30B7\u30BE\u30F3"
+  - "\u30AF\u30E9\u30DF\u30C9\u30E2\u30CA\u30B9"
+  - "\u30B7\u30A2\u30EF\u30BB\u30E2"
+  - "\u30DC\u30EB\u30DC\u30C3\u30AF\u30B9"
+  - "\u30B3\u30B1"
+  - "\u30B7\u30C0"
+  - "\u91DD\u8449\u6A39"
+  - "\u5E83\u8449\u6A39"
+  - "\u30B8\u30E3\u30F3\u30B0\u30EB"
+  - "\u8349\u539F"
+  - "\u7802\u6F20"
+  - "\u30AB\u30A4\u30E1\u30F3"
+  - "\u30C7\u30A3\u30C3\u30AD\u30F3\u30BD\u30CB\u30A2"
+  - "\u30AF\u30E9\u30B2"
+  - "\u30A4\u30BD\u30AE\u30F3\u30C1\u30E3\u30AF"
+  - "\u30B5\u30F3\u30B4"
+  - "\u30AD\u30F3\u30D9\u30EC\u30E9"
+  - "\u30D7\u30E9\u30CA\u30EA\u30A2"
+  - "\u30B4\u30AB\u30A4"
+  - "\u30D2\u30EB"
+  - "\u30DF\u30DF\u30BA"
+  - "\u30C4\u30CE\u30AC\u30A4"
+  - "\u5DFB\u8C9D"
+  - "\u30A4\u30AB"
+  - "\u30BF\u30B3"
+  - "\u30EC\u30A2\u30F3\u30B3\u30A4\u30EA\u30A2"
+  - "\u30AB\u30A4\u30A2\u30B7"
+  - "\u30A8\u30D3"
+  - "\u30AB\u30CB"
+  - "\u30C8\u30F3\u30DC"
+  - "\u30CF\u30C1"
+  - "\u30C1\u30E7\u30A6"
+  - "\u30A4\u30AB\u30EA\u30A2"
+  - "\u30A6\u30DF\u30E6\u30EA"
+  - "\u30CA\u30DE\u30B3"
+  - "\u30D2\u30C8\u30C7"
+  - "\u30A6\u30CB"
+  - "\u30D4\u30AB\u30A4\u30A2"
+  - "\u9B5A\u985E"
+  - "\u4E21\u751F\u985E"
+  - "\u722C\u866B\u985E"
+  - "\u6050\u7ADC"
+  - "\u9CE5\u985E"
+  - "\u54FA\u4E73\u985E"
+  species:
+  - id: 0
+    layer: 0
+    timescale: 0
+    palette: 0
+    scale: 0
+    variantType: 0
+    competitiveness: 0
+    evolutionSpeed: 0
+    growthSpeed: 0
+    reproductAt: 1.2
+    mobility: 0
+    densityCapacity: 0
+    produce:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: 0, y: 0}
+        a1: {x: 0, y: 0}
+        a2: {x: 0, y: 0}
+        a3: {x: 0, y: 0}
+      a1:
+        a0: {x: 0, y: 0}
+        a1: {x: 0, y: 0}
+        a2: {x: 0, y: 0}
+        a3: {x: 0, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 273.15, y: 0}
+        a2: {x: 273.15, y: 0}
+        a3: {x: 273.15, y: 0}
+      a3:
+        a0: {x: 0, y: 0}
+        a1: {x: 0, y: 0}
+        a2: {x: 0, y: 0}
+        a3: {x: 0, y: 0}
+    transforms:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 1
+    layer: 0
+    timescale: 1
+    palette: 0
+    scale: 1
+    variantType: 0
+    competitiveness: 0.1
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.1, y: 1}
+        a3: {x: 0.2, y: 0.5}
+      a1:
+        a0: {x: -20000, y: 0}
+        a1: {x: -10000, y: 1}
+        a2: {x: -4000, y: 1}
+        a3: {x: -3000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 303.15, y: 1}
+        a2: {x: 353.15, y: 1}
+        a3: {x: 423.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 2
+      a1: 5
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 2
+    layer: 0
+    timescale: 1
+    palette: 1
+    scale: 1
+    variantType: 0
+    competitiveness: 0.2
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.1, y: 1}
+        a3: {x: 0.2, y: 0.5}
+      a1:
+        a0: {x: -9000, y: 0}
+        a1: {x: -8000, y: 1}
+        a2: {x: -2000, y: 1}
+        a3: {x: -1000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 303.15, y: 1}
+        a2: {x: 333.15, y: 1}
+        a3: {x: 393.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 4
+      a1: 3
+      a2: 1
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 3
+    layer: 0
+    timescale: 2
+    palette: 8
+    scale: 1
+    variantType: 0
+    competitiveness: 0.3
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0.1
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.1, y: 1}
+        a3: {x: 0.3, y: 0.5}
+      a1:
+        a0: {x: -5000, y: 0}
+        a1: {x: -4000, y: 1}
+        a2: {x: -500, y: 1}
+        a3: {x: 0, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 293.15, y: 1}
+        a2: {x: 323.15, y: 1}
+        a3: {x: 373.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 2
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 6
+    uniteTo: 10
+  - id: 4
+    layer: 0
+    timescale: 2
+    palette: 2
+    scale: 1
+    variantType: 0
+    competitiveness: 0.3
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.01
+    preferences:
+      a0:
+        a0: {x: 0.0001, y: 0}
+        a1: {x: 0.001, y: 1}
+        a2: {x: 0.1, y: 1}
+        a3: {x: 0.3, y: 0.5}
+      a1:
+        a0: {x: -9000, y: 0}
+        a1: {x: -8000, y: 1}
+        a2: {x: -4000, y: 1}
+        a3: {x: -3000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 293.15, y: 1}
+        a2: {x: 323.15, y: 1}
+        a3: {x: 373.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 2
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 5
+    uniteTo: 6
+  - id: 5
+    layer: 0
+    timescale: 1
+    palette: 3
+    scale: 1
+    variantType: 0
+    competitiveness: 0.2
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.2, y: 1}
+        a3: {x: 0.3, y: 0.5}
+      a1:
+        a0: {x: -20000, y: 0}
+        a1: {x: -10000, y: 1}
+        a2: {x: -4000, y: 1}
+        a3: {x: -2000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 293.15, y: 1}
+        a2: {x: 313.15, y: 1}
+        a3: {x: 373.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 1
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 4
+    uniteTo: 6
+  - id: 6
+    layer: 0
+    timescale: 6
+    palette: 4
+    scale: 1
+    variantType: 0
+    competitiveness: 1
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.01
+    preferences:
+      a0:
+        a0: {x: 0.02, y: 0}
+        a1: {x: 0.05, y: 1}
+        a2: {x: 0.2, y: 1}
+        a3: {x: 0.3, y: 0.5}
+      a1:
+        a0: {x: -9000, y: 0}
+        a1: {x: -8000, y: 1}
+        a2: {x: -2000, y: 1}
+        a3: {x: -1000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 288.15, y: 1}
+        a2: {x: 313.15, y: 1}
+        a3: {x: 383.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 7
+      a1: 4
+      a2: 5
+      a3: 0
+    uniteWith: 3
+    uniteTo: 10
+  - id: 7
+    layer: 0
+    timescale: 6
+    palette: 5
+    scale: 0.8
+    variantType: 0
+    competitiveness: 2
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.02
+    preferences:
+      a0:
+        a0: {x: 0.05, y: 0}
+        a1: {x: 0.1, y: 1}
+        a2: {x: 0.2, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -6000, y: 0}
+        a1: {x: -4000, y: 1}
+        a2: {x: -2000, y: 1}
+        a3: {x: -1000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 8
+      a1: 6
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 8
+    layer: 0
+    timescale: 7
+    palette: 6
+    scale: 1
+    variantType: 0
+    competitiveness: 3
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.05
+    preferences:
+      a0:
+        a0: {x: 0.05, y: 0}
+        a1: {x: 0.1, y: 1}
+        a2: {x: 0.2, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -7000, y: 0}
+        a1: {x: -6000, y: 1}
+        a2: {x: -3000, y: 1}
+        a3: {x: -2000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 9
+      a1: 7
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 9
+    layer: 0
+    timescale: 7
+    palette: 7
+    scale: 1
+    variantType: 0
+    competitiveness: 4
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.05
+    preferences:
+      a0:
+        a0: {x: 0.05, y: 0}
+        a1: {x: 0.1, y: 1}
+        a2: {x: 0.2, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -20000, y: 0}
+        a1: {x: -10000, y: 1}
+        a2: {x: -4000, y: 1}
+        a3: {x: -3000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 21
+      a1: 8
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 10
+    layer: 0
+    timescale: 6
+    palette: 9
+    scale: 1
+    variantType: 0
+    competitiveness: 1
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0.2
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.1, y: 1}
+        a3: {x: 0.3, y: 0.5}
+      a1:
+        a0: {x: -5000, y: 0}
+        a1: {x: -4000, y: 1}
+        a2: {x: -500, y: 1}
+        a3: {x: 0, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 288.15, y: 1}
+        a2: {x: 313.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 11
+      a1: 3
+      a2: 6
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 11
+    layer: 0
+    timescale: 6
+    palette: 10
+    scale: 1
+    variantType: 0
+    competitiveness: 2
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0.5
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -3000, y: 0}
+        a1: {x: -2000, y: 1}
+        a2: {x: -1500, y: 1}
+        a3: {x: -1000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 12
+      a1: 10
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 12
+    layer: 0
+    timescale: 7
+    palette: 11
+    scale: 1
+    variantType: 0
+    competitiveness: 3
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 1
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -2500, y: 0}
+        a1: {x: -1500, y: 1}
+        a2: {x: -1000, y: 1}
+        a3: {x: -500, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 13
+      a1: 11
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 13
+    layer: 0
+    timescale: 7
+    palette: 12
+    scale: 1
+    variantType: 0
+    competitiveness: 4
+    evolutionSpeed: 0
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 1
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -2000, y: 0}
+        a1: {x: -1000, y: 1}
+        a2: {x: 0, y: 1}
+        a3: {x: 100, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 14
+      a1: 12
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 14
+    layer: 1
+    timescale: 8
+    palette: 64
+    scale: 1
+    variantType: 0
+    competitiveness: 10
+    evolutionSpeed: 0
+    growthSpeed: 0.05
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 100
+    produce:
+      soil: 0
+      leaves: 1
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0.5
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 2
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.4, y: 1}
+        a3: {x: 0.5, y: 0}
+      a1:
+        a0: {x: 0, y: 0}
+        a1: {x: 100, y: 1}
+        a2: {x: 2000, y: 1}
+        a3: {x: 3000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.9, y: 0}
+        a1: {x: 0.95, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 15
+      a1: 13
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 15
+    layer: 1
+    timescale: 12
+    palette: 68
+    scale: 1
+    variantType: 0
+    competitiveness: 11
+    evolutionSpeed: 0
+    growthSpeed: 0.05
+    reproductAt: 1.2
+    mobility: 2
+    densityCapacity: 100
+    produce:
+      soil: 0
+      leaves: 1
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 2
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.4, y: 1}
+        a3: {x: 0.5, y: 0}
+      a1:
+        a0: {x: 0, y: 0}
+        a1: {x: 1000, y: 1}
+        a2: {x: 2000, y: 1}
+        a3: {x: 4000, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.5, y: 0}
+        a1: {x: 0.6, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 16
+      a1: 14
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 16
+    layer: 1
+    timescale: 13
+    palette: 72
+    scale: 1
+    variantType: 0
+    competitiveness: 12
+    evolutionSpeed: 0
+    growthSpeed: 0.05
+    reproductAt: 1.2
+    mobility: 3
+    densityCapacity: 100
+    produce:
+      soil: 0
+      leaves: 1
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 3
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.4, y: 1}
+        a3: {x: 0.5, y: 0}
+      a1:
+        a0: {x: 1000, y: 0}
+        a1: {x: 2000, y: 1}
+        a2: {x: 10000, y: 1}
+        a3: {x: 11000, y: 0}
+      a2:
+        a0: {x: 253.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 293.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.2, y: 0}
+        a1: {x: 0.4, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 17
+      a1: 15
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 17
+    layer: 1
+    timescale: 16
+    palette: 80
+    scale: 1
+    variantType: 0
+    competitiveness: 20
+    evolutionSpeed: 0
+    growthSpeed: 0.05
+    reproductAt: 1.2
+    mobility: 4
+    densityCapacity: 100
+    produce:
+      soil: 0
+      leaves: 1
+      honey: 1
+      fruits: 1
+      meats: 0
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 3
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.4, y: 1}
+        a3: {x: 0.5, y: 0}
+      a1:
+        a0: {x: 2000, y: 0}
+        a1: {x: 3000, y: 1}
+        a2: {x: 6000, y: 1}
+        a3: {x: 8000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.3, y: 0}
+        a1: {x: 0.5, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 19
+      a1: 18
+      a2: 16
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 18
+    layer: 1
+    timescale: 16
+    palette: 84
+    scale: 1
+    variantType: 0
+    competitiveness: 22
+    evolutionSpeed: 0
+    growthSpeed: 0.05
+    reproductAt: 1.2
+    mobility: 3
+    densityCapacity: 100
+    produce:
+      soil: 0
+      leaves: 1
+      honey: 0
+      fruits: 1
+      meats: 0
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 2
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.4, y: 1}
+        a3: {x: 0.5, y: 0}
+      a1:
+        a0: {x: 0, y: 0}
+        a1: {x: 500, y: 1}
+        a2: {x: 3000, y: 1}
+        a3: {x: 4000, y: 0}
+      a2:
+        a0: {x: 283.15, y: 0}
+        a1: {x: 293.15, y: 1}
+        a2: {x: 313.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.6, y: 0}
+        a1: {x: 0.9, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 17
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 19
+    layer: 1
+    timescale: 16
+    palette: 88
+    scale: 1
+    variantType: 0
+    competitiveness: 13
+    evolutionSpeed: 0
+    growthSpeed: 0.05
+    reproductAt: 1.2
+    mobility: 2
+    densityCapacity: 100
+    produce:
+      soil: 0
+      leaves: 1
+      honey: 1
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 2
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.4, y: 1}
+        a3: {x: 0.5, y: 0}
+      a1:
+        a0: {x: 0, y: 0}
+        a1: {x: 500, y: 1}
+        a2: {x: 6000, y: 1}
+        a3: {x: 7000, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 293.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.05, y: 0}
+        a1: {x: 0.1, y: 1}
+        a2: {x: 0.6, y: 1}
+        a3: {x: 0.7, y: 0}
+    transforms:
+      a0: 20
+      a1: 17
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 20
+    layer: 1
+    timescale: 16
+    palette: 92
+    scale: 1
+    variantType: 0
+    competitiveness: 14
+    evolutionSpeed: 0
+    growthSpeed: 0.05
+    reproductAt: 1.2
+    mobility: 2
+    densityCapacity: 100
+    produce:
+      soil: 0
+      leaves: 0.5
+      honey: 0
+      fruits: 0
+      meats: 0
+    consume:
+      soil: 0.1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0.1
+    respiration: 0
+    preferences:
+      a0:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.4, y: 1}
+        a3: {x: 0.5, y: 0}
+      a1:
+        a0: {x: 0, y: 0}
+        a1: {x: 500, y: 1}
+        a2: {x: 6000, y: 1}
+        a3: {x: 7000, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 323.15, y: 1}
+        a3: {x: 353.15, y: 0}
+      a3:
+        a0: {x: -1, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 0.2, y: 1}
+        a3: {x: 0.3, y: 0}
+    transforms:
+      a0: 19
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 21
+    layer: 2
+    timescale: 8
+    palette: 32
+    scale: 1
+    variantType: 1
+    competitiveness: 10
+    evolutionSpeed: 0.0001
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 4
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.1
+    preferences:
+      a0:
+        a0: {x: 0.05, y: 0}
+        a1: {x: 0.1, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -20000, y: 0}
+        a1: {x: -10000, y: 1}
+        a2: {x: -6000, y: 1}
+        a3: {x: -2000, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 22
+      a1: 9
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 22
+    layer: 2
+    timescale: 8
+    palette: 96
+    scale: 1
+    variantType: 1
+    competitiveness: 11
+    evolutionSpeed: 0.0001
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 4
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.1
+    preferences:
+      a0:
+        a0: {x: 0.05, y: 0}
+        a1: {x: 0.1, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -7000, y: 0}
+        a1: {x: -6000, y: 1}
+        a2: {x: -3850, y: 1}
+        a3: {x: -2050, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 323.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 23
+      a1: 26
+      a2: 42
+      a3: 21
+    uniteWith: 0
+    uniteTo: 0
+  - id: 23
+    layer: 2
+    timescale: 8
+    palette: 35
+    scale: 1
+    variantType: 1
+    competitiveness: 100
+    evolutionSpeed: 0.00018399997
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.15, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -20000, y: 0}
+        a1: {x: -10000, y: 1}
+        a2: {x: -2850, y: 1}
+        a3: {x: -1950, y: 0}
+      a2:
+        a0: {x: 294.65, y: 0}
+        a1: {x: 299.65, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 24
+      a1: 22
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 24
+    layer: 2
+    timescale: 9
+    palette: 34
+    scale: 1
+    variantType: 1
+    competitiveness: 110
+    evolutionSpeed: 0.00024199995
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -4750, y: 0}
+        a1: {x: -2850, y: 1}
+        a2: {x: -1550, y: 1}
+        a3: {x: -750, y: 0}
+      a2:
+        a0: {x: 294.65, y: 0}
+        a1: {x: 299.65, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 25
+      a1: 23
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 25
+    layer: 2
+    timescale: 9
+    palette: 33
+    scale: 1
+    variantType: 1
+    competitiveness: 120
+    evolutionSpeed: 0.00024899998
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -4050, y: 0}
+        a1: {x: -1550, y: 1}
+        a2: {x: -500, y: 1}
+        a3: {x: 0, y: 0}
+      a2:
+        a0: {x: 294.65, y: 0}
+        a1: {x: 299.65, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 24
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 26
+    layer: 2
+    timescale: 8
+    palette: 97
+    scale: 1
+    variantType: 1
+    competitiveness: 12
+    evolutionSpeed: 0.0001
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 4
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.1, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -4600, y: 0}
+        a1: {x: -3850, y: 1}
+        a2: {x: -1550, y: 1}
+        a3: {x: -750, y: 0}
+      a2:
+        a0: {x: 291.65, y: 0}
+        a1: {x: 296.65, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 27
+      a1: 35
+      a2: 22
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 27
+    layer: 2
+    timescale: 9
+    palette: 36
+    scale: 1
+    variantType: 1
+    competitiveness: 13
+    evolutionSpeed: 0.00012
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 4
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.5
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.15, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -2900, y: 0}
+        a1: {x: -2200, y: 1}
+        a2: {x: 0, y: 1}
+        a3: {x: 100, y: 0}
+      a2:
+        a0: {x: 291.65, y: 0}
+        a1: {x: 296.65, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 31
+      a1: 28
+      a2: 26
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 28
+    layer: 2
+    timescale: 9
+    palette: 39
+    scale: 1
+    variantType: 1
+    competitiveness: 110
+    evolutionSpeed: 0.00035399996
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -100, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 1150, y: 1}
+        a3: {x: 2750, y: 0}
+      a2:
+        a0: {x: 293.15, y: 0}
+        a1: {x: 297.65, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.4, y: 0}
+        a1: {x: 0.6, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 29
+      a1: 27
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 29
+    layer: 2
+    timescale: 9
+    palette: 37
+    scale: 1
+    variantType: 1
+    competitiveness: 120
+    evolutionSpeed: 0.00037099994
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0.5
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0.5
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: 450, y: 0}
+        a1: {x: 1150, y: 1}
+        a2: {x: 2300, y: 1}
+        a3: {x: 4800, y: 0}
+      a2:
+        a0: {x: 293.15, y: 0}
+        a1: {x: 297.65, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.4, y: 0}
+        a1: {x: 0.6, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 30
+      a1: 28
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 30
+    layer: 2
+    timescale: 12
+    palette: 38
+    scale: 1
+    variantType: 1
+    competitiveness: 130
+    evolutionSpeed: 0.000395
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: 400, y: 0}
+        a1: {x: 2300, y: 1}
+        a2: {x: 7000, y: 1}
+        a3: {x: 8000, y: 0}
+      a2:
+        a0: {x: 293.15, y: 0}
+        a1: {x: 297.65, y: 1}
+        a2: {x: 303.15, y: 1}
+        a3: {x: 313.15, y: 0}
+      a3:
+        a0: {x: 0.4, y: 0}
+        a1: {x: 0.6, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 29
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 31
+    layer: 2
+    timescale: 9
+    palette: 40
+    scale: 1
+    variantType: 1
+    competitiveness: 100
+    evolutionSpeed: 0.000265
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.5
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -2900, y: 0}
+        a1: {x: -2200, y: 1}
+        a2: {x: -500, y: 1}
+        a3: {x: 0, y: 0}
+      a2:
+        a0: {x: 291.65, y: 0}
+        a1: {x: 296.65, y: 1}
+        a2: {x: 299.65, y: 1}
+        a3: {x: 308.65, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 32
+      a1: 27
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 32
+    layer: 2
+    timescale: 9
+    palette: 41
+    scale: 1
+    variantType: 1
+    competitiveness: 110
+    evolutionSpeed: 0.00030399996
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.5
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -5850, y: 0}
+        a1: {x: -3850, y: 1}
+        a2: {x: -2200, y: 1}
+        a3: {x: -350, y: 0}
+      a2:
+        a0: {x: 291.65, y: 0}
+        a1: {x: 296.65, y: 1}
+        a2: {x: 299.65, y: 1}
+        a3: {x: 308.65, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 33
+      a1: 31
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 33
+    layer: 2
+    timescale: 10
+    palette: 42
+    scale: 1
+    variantType: 2
+    competitiveness: 120
+    evolutionSpeed: 0.000315
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 2
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0.5
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0.5
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -7700, y: 0}
+        a1: {x: -4900, y: 1}
+        a2: {x: -3850, y: 1}
+        a3: {x: -1900, y: 0}
+      a2:
+        a0: {x: 291.65, y: 0}
+        a1: {x: 296.65, y: 1}
+        a2: {x: 299.65, y: 1}
+        a3: {x: 308.65, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 34
+      a1: 32
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 34
+    layer: 2
+    timescale: 13
+    palette: 43
+    scale: 1
+    variantType: 1
+    competitiveness: 130
+    evolutionSpeed: 0.00033599994
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 3
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0.5
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0.5
+    photosynthesis: 0
+    respiration: 2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -20000, y: 0}
+        a1: {x: -10000, y: 1}
+        a2: {x: -4900, y: 1}
+        a3: {x: -3000, y: 0}
+      a2:
+        a0: {x: 291.65, y: 0}
+        a1: {x: 296.65, y: 1}
+        a2: {x: 299.65, y: 1}
+        a3: {x: 308.65, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 33
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 35
+    layer: 2
+    timescale: 9
+    palette: 98
+    scale: 1
+    variantType: 1
+    competitiveness: 20
+    evolutionSpeed: 0.0001
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 3
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.15, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -4600, y: 0}
+        a1: {x: -3850, y: 1}
+        a2: {x: 0, y: 1}
+        a3: {x: 100, y: 0}
+      a2:
+        a0: {x: 282.15, y: 0}
+        a1: {x: 290.15, y: 1}
+        a2: {x: 296.65, y: 1}
+        a3: {x: 304.65, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 36
+      a1: 39
+      a2: 26
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 36
+    layer: 2
+    timescale: 9
+    palette: 78
+    scale: 1
+    variantType: 1
+    competitiveness: 100
+    evolutionSpeed: 0.00026199996
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.5
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -2650, y: 0}
+        a1: {x: -2050, y: 1}
+        a2: {x: -500, y: 1}
+        a3: {x: 0, y: 0}
+      a2:
+        a0: {x: 282.15, y: 0}
+        a1: {x: 290.15, y: 1}
+        a2: {x: 296.65, y: 1}
+        a3: {x: 304.65, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 37
+      a1: 35
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 37
+    layer: 2
+    timescale: 9
+    palette: 65
+    scale: 1
+    variantType: 1
+    competitiveness: 110
+    evolutionSpeed: 0.00028
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0.5
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0.5
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -4600, y: 0}
+        a1: {x: -3850, y: 1}
+        a2: {x: -2050, y: 1}
+        a3: {x: -400, y: 0}
+      a2:
+        a0: {x: 282.15, y: 0}
+        a1: {x: 290.15, y: 1}
+        a2: {x: 296.65, y: 1}
+        a3: {x: 304.65, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 38
+      a1: 36
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 38
+    layer: 2
+    timescale: 15
+    palette: 66
+    scale: 1
+    variantType: 1
+    competitiveness: 120
+    evolutionSpeed: 0.00030299998
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0.5
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0.5
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -20000, y: 0}
+        a1: {x: -10000, y: 1}
+        a2: {x: -3850, y: 1}
+        a3: {x: -2050, y: 0}
+      a2:
+        a0: {x: 282.15, y: 0}
+        a1: {x: 290.15, y: 1}
+        a2: {x: 296.65, y: 1}
+        a3: {x: 304.65, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 37
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 39
+    layer: 2
+    timescale: 15
+    palette: 101
+    scale: 1
+    variantType: 1
+    competitiveness: 100
+    evolutionSpeed: 0.00034600002
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 4
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0.5
+      leaves: 0.5
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -100, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 950, y: 1}
+        a3: {x: 1550, y: 0}
+      a2:
+        a0: {x: 286.15, y: 0}
+        a1: {x: 292.65, y: 1}
+        a2: {x: 297.65, y: 1}
+        a3: {x: 304.65, y: 0}
+      a3:
+        a0: {x: 0.2, y: 0}
+        a1: {x: 0.4, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 40
+      a1: 35
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 40
+    layer: 2
+    timescale: 15
+    palette: 69
+    scale: 1
+    variantType: 1
+    competitiveness: 110
+    evolutionSpeed: 0.00034999996
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 4
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0
+      leaves: 0.3333333
+      honey: 0.3333333
+      fruits: 0
+      meats: 0.3333333
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -500, y: 0}
+        a1: {x: 950, y: 1}
+        a2: {x: 2450, y: 1}
+        a3: {x: 3050, y: 0}
+      a2:
+        a0: {x: 286.15, y: 0}
+        a1: {x: 292.65, y: 1}
+        a2: {x: 297.65, y: 1}
+        a3: {x: 304.65, y: 0}
+      a3:
+        a0: {x: 0.2, y: 0}
+        a1: {x: 0.4, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 41
+      a1: 39
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 41
+    layer: 2
+    timescale: 15
+    palette: 102
+    scale: 1
+    variantType: 1
+    competitiveness: 120
+    evolutionSpeed: 0.00039700008
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 4
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0
+      leaves: 0.5
+      honey: 0.5
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: 450, y: 0}
+        a1: {x: 2450, y: 1}
+        a2: {x: 7000, y: 1}
+        a3: {x: 8000, y: 0}
+      a2:
+        a0: {x: 286.15, y: 0}
+        a1: {x: 292.65, y: 1}
+        a2: {x: 297.65, y: 1}
+        a3: {x: 304.65, y: 0}
+      a3:
+        a0: {x: 0.2, y: 0}
+        a1: {x: 0.4, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 40
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 42
+    layer: 2
+    timescale: 8
+    palette: 99
+    scale: 1
+    variantType: 1
+    competitiveness: 12
+    evolutionSpeed: 0.0001
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 4
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.15, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -6450, y: 0}
+        a1: {x: -3950, y: 1}
+        a2: {x: -1800, y: 1}
+        a3: {x: -150, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 290.15, y: 1}
+        a3: {x: 300.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 43
+      a1: 47
+      a2: 22
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 43
+    layer: 2
+    timescale: 9
+    palette: 44
+    scale: 1
+    variantType: 1
+    competitiveness: 100
+    evolutionSpeed: 0.00024599998
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -2500, y: 0}
+        a1: {x: -1800, y: 1}
+        a2: {x: -1050, y: 1}
+        a3: {x: 150, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 290.15, y: 1}
+        a3: {x: 300.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 44
+      a1: 42
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 44
+    layer: 2
+    timescale: 10
+    palette: 45
+    scale: 1
+    variantType: 1
+    competitiveness: 110
+    evolutionSpeed: 0.00026799995
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -3550, y: 0}
+        a1: {x: -2800, y: 1}
+        a2: {x: -1800, y: 1}
+        a3: {x: -150, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 290.15, y: 1}
+        a3: {x: 300.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 45
+      a1: 43
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 45
+    layer: 2
+    timescale: 11
+    palette: 46
+    scale: 1
+    variantType: 1
+    competitiveness: 120
+    evolutionSpeed: 0.000288
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.5
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -6450, y: 0}
+        a1: {x: -3950, y: 1}
+        a2: {x: -2800, y: 1}
+        a3: {x: -1500, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 290.15, y: 1}
+        a3: {x: 300.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 46
+      a1: 44
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 46
+    layer: 2
+    timescale: 11
+    palette: 47
+    scale: 1
+    variantType: 1
+    competitiveness: 130
+    evolutionSpeed: 0.000297
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.5
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -20000, y: 0}
+        a1: {x: -10000, y: 1}
+        a2: {x: -3950, y: 1}
+        a3: {x: -1950, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 290.15, y: 1}
+        a3: {x: 300.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 45
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 47
+    layer: 2
+    timescale: 9
+    palette: 100
+    scale: 1
+    variantType: 1
+    competitiveness: 13
+    evolutionSpeed: 0.00012
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 2
+    densityCapacity: 3
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0
+    photosynthesis: 0
+    respiration: 0.2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -2500, y: 0}
+        a1: {x: -1800, y: 1}
+        a2: {x: -100, y: 1}
+        a3: {x: 0, y: 0}
+      a2:
+        a0: {x: 273.15, y: 0}
+        a1: {x: 283.15, y: 1}
+        a2: {x: 290.15, y: 1}
+        a3: {x: 300.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 48
+      a1: 42
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 48
+    layer: 2
+    timescale: 12
+    palette: 70
+    scale: 1
+    variantType: 1
+    competitiveness: 100
+    evolutionSpeed: 0.00029600007
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 2
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0.5
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 0.5
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -2300, y: 0}
+        a1: {x: -1050, y: 1}
+        a2: {x: 0, y: 1}
+        a3: {x: 100, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 290.15, y: 1}
+        a3: {x: 300.15, y: 0}
+      a3:
+        a0: {x: 0.7, y: 0}
+        a1: {x: 0.8, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 49
+      a1: 47
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 49
+    layer: 2
+    timescale: 13
+    palette: 71
+    scale: 1
+    variantType: 1
+    competitiveness: 110
+    evolutionSpeed: 0.000431
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 1
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0
+      leaves: 0.5
+      honey: 0
+      fruits: 0
+      meats: 0.5
+    photosynthesis: 0
+    respiration: 1
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -100, y: 0}
+        a1: {x: 0, y: 1}
+        a2: {x: 900, y: 1}
+        a3: {x: 1600, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 292.65, y: 1}
+        a3: {x: 301.15, y: 0}
+      a3:
+        a0: {x: 0.4, y: 0}
+        a1: {x: 0.6, y: 1}
+        a2: {x: 1, y: 1}
+        a3: {x: 1.1, y: 0}
+    transforms:
+      a0: 50
+      a1: 48
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 50
+    layer: 2
+    timescale: 13
+    palette: 72
+    scale: 1
+    variantType: 1
+    competitiveness: 120
+    evolutionSpeed: 0.00051000016
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 2
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0
+      leaves: 0.5
+      honey: 0
+      fruits: 0
+      meats: 0.5
+    photosynthesis: 0
+    respiration: 2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -450, y: 0}
+        a1: {x: 900, y: 1}
+        a2: {x: 1400, y: 1}
+        a3: {x: 2000, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 292.65, y: 1}
+        a3: {x: 301.15, y: 0}
+      a3:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.9, y: 1}
+        a3: {x: 1, y: 0}
+    transforms:
+      a0: 51
+      a1: 53
+      a2: 49
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 51
+    layer: 2
+    timescale: 15
+    palette: 73
+    scale: 1
+    variantType: 1
+    competitiveness: 130
+    evolutionSpeed: 0.0005460002
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 3
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0
+      leaves: 0.5
+      honey: 0
+      fruits: 0
+      meats: 0.5
+    photosynthesis: 0
+    respiration: 3
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -500, y: 0}
+        a1: {x: 1400, y: 1}
+        a2: {x: 3300, y: 1}
+        a3: {x: 4100, y: 0}
+      a2:
+        a0: {x: 281.15, y: 0}
+        a1: {x: 286.15, y: 1}
+        a2: {x: 292.65, y: 1}
+        a3: {x: 301.15, y: 0}
+      a3:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.9, y: 1}
+        a3: {x: 1, y: 0}
+    transforms:
+      a0: 52
+      a1: 50
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 52
+    layer: 2
+    timescale: 16
+    palette: 74
+    scale: 1
+    variantType: 1
+    competitiveness: 140
+    evolutionSpeed: 0.000597
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 5
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0
+      leaves: 0.25
+      honey: 0.25
+      fruits: 0.25
+      meats: 0.25
+    photosynthesis: 0
+    respiration: 2
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: 800, y: 0}
+        a1: {x: 3300, y: 1}
+        a2: {x: 10000, y: 1}
+        a3: {x: 11000, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 292.65, y: 1}
+        a3: {x: 301.15, y: 0}
+      a3:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.9, y: 1}
+        a3: {x: 1, y: 0}
+    transforms:
+      a0: 51
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0
+  - id: 53
+    layer: 2
+    timescale: 15
+    palette: 75
+    scale: 1
+    variantType: 1
+    competitiveness: 150
+    evolutionSpeed: 0.00058000017
+    growthSpeed: 0.2
+    reproductAt: 1.2
+    mobility: 3
+    densityCapacity: 2
+    produce:
+      soil: 1
+      leaves: 0
+      honey: 0
+      fruits: 0
+      meats: 1
+    consume:
+      soil: 0
+      leaves: 0.25
+      honey: 0.25
+      fruits: 0.25
+      meats: 0.25
+    photosynthesis: 0
+    respiration: 3
+    preferences:
+      a0:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.3, y: 1}
+        a3: {x: 0.4, y: 0}
+      a1:
+        a0: {x: -1500, y: 0}
+        a1: {x: 1400, y: 1}
+        a2: {x: 3300, y: 1}
+        a3: {x: 4100, y: 0}
+      a2:
+        a0: {x: 263.15, y: 0}
+        a1: {x: 273.15, y: 1}
+        a2: {x: 292.65, y: 1}
+        a3: {x: 303.65, y: 0}
+      a3:
+        a0: {x: 0.1, y: 0}
+        a1: {x: 0.2, y: 1}
+        a2: {x: 0.9, y: 1}
+        a3: {x: 1, y: 0}
+    transforms:
+      a0: 50
+      a1: 0
+      a2: 0
+      a3: 0
+    uniteWith: 0
+    uniteTo: 0

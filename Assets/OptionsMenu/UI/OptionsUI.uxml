@@ -1,0 +1,29 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="options-popup-layer" picking-mode="Ignore" class="popup-layer" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; display: none;">
+        <engine:VisualElement class="popup-frame">
+            <engine:VisualElement class="popup-header" style="flex-grow: 1;">
+                <engine:Label text="Options" />
+            </engine:VisualElement>
+            <engine:VisualElement class="popup-cntent" style="flex-grow: 1;">
+                <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                    <engine:EnumField label="Screen Orientation" value="LandscapeLeft" type="UnityEngine.ScreenOrientation, UnityEngine.CoreModule" name="options-screenorientation-enum" />
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                    <engine:Toggle label="Limit FPS" name="options-limitfps-toggle" text="Enabled" />
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                    <engine:EnumField label="Smooth Surface" name="options-smoothsurface-enum" value="Vertex" type="Evolia.Shared.SmoothingMode, Main" />
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                    <engine:Toggle label="Tier Scaling" name="options-tierscaling-toggle" text="Enabled" />
+                </engine:VisualElement>
+                <engine:VisualElement class="popup-content-row" style="flex-grow: 1;">
+                    <engine:Toggle label="God Mode" name="options-godmode-toggle" text="Enabled" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement class="popup-footer" style="flex-grow: 1;">
+                <engine:Button text="OK" name="options-close-button" class="box-button" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
